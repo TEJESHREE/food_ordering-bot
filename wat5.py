@@ -1,3 +1,8 @@
+/**
+Food Ordering Bot which is built using Telegram for frontend(ordering) , and IBM Watson for training the bot to receive orders. This code can be optimized by fetching the address directly from google on one click **/ 
+
+
+
 from telegram.ext import Updater, MessageHandler, CommandHandler, Filters
 from watson_developer_cloud import ConversationV1
 import json
